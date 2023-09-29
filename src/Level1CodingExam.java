@@ -15,6 +15,7 @@ public class Level1CodingExam implements ActionListener {
 	JButton button4;
 	public void run() {
 		frame = new JFrame();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		panel = new JPanel();
 		button1 = new JButton();
 		button2 = new JButton();
